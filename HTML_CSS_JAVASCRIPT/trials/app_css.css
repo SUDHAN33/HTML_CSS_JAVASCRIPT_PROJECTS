@@ -1,0 +1,14 @@
+#box{
+    height: 250px;
+    width: 250px;
+    background: blue;
+    font-size: 225px;
+    text-align: center;
+    animation: slide;
+    animation-duration: 5s;
+}
+
+@keyframes slide {
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
